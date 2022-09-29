@@ -1,0 +1,28 @@
+<mat-toolbar>
+    <img src="https://i0.wp.com/multarte.com.br/wp-content/uploads/2020/08/bradesco-fundo-transparente.png?fit=696%2C226&ssl=1" alt="">
+
+   <div class="nav">
+        <h2 class="home" (click)="navigateHome()">
+            Home
+        </h2>
+        <h2 class="beneficios" (click)="navigateBenefits()">
+            Benefícios
+        </h2>
+        <h2 class="prime" (click)="navigatePrime()">
+            Prime
+        </h2>
+        <h2 class="bia" (click)="navigateBia()">
+            Bia
+        </h2>
+   </div>
+
+    <div class="log">
+        <button mat-button [matMenuTriggerFor]="menu" class="button">
+            <mat-icon>account_circle</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item class="login">Login</button>
+            <button mat-menu-item class="register">Cadastrar-se</button>
+        </mat-menu>
+    </div>
+</mat-toolbar>

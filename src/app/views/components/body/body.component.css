@@ -1,0 +1,256 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    height: 100%;
+}
+
+ngb-carousel{
+    width: 100%;
+}
+
+img{
+    width: 50%;
+}
+
+@media only screen and (max-width: 900px){
+    .container{
+        position: absolute;
+        margin-top: 38%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 50%;
+        width: 40%;
+    }
+    .container2{
+        position: absolute;
+        margin-top: 62%;
+    }
+    .container3{
+        position: absolute;
+        margin-top: 90%;
+        min-width: 70%;
+        max-width: 70%;
+    }
+    .minibox{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        min-width: 35%;
+        max-width: 35%;
+        min-height: 25%;
+        max-height: 25%;
+    }
+    .subtitle3{
+      margin-top: -10%;
+    }
+    .imgOne{
+        width: 90%;
+        height: 90%;
+    }
+    .imgBox{
+        margin-top: -25%;
+    }
+    .imgBack{
+        width: 100%;
+        height: 60%;
+    }
+    .end{
+        display: flex;
+        margin-left: auto;
+        margin-top: 45%;
+        min-width: 45%;
+        max-width: 50%;
+        min-height: 50%;
+        max-height: 50%;
+    }
+    .bar{
+        left: 0;
+        right: 0;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        max-height: 8%;
+        min-height: 5%;
+        display: flex;
+        margin-top: 28.1%;
+    }
+    .one, .second, .third, .fourth, .fifth{
+        min-width: 15%;
+        max-width: 15%;
+        min-height: 25%;
+        max-height: 10%;
+    }
+    .one:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover{
+        min-width: 15%;
+        max-width: 15%;
+        min-height: 30%;
+        min-height: 30%;
+    }
+}
+
+.bar{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -5%;
+    width: 90%;
+    height: 20%;
+    background-color: white;
+    box-shadow: 0px 2px 48px #00000029;
+    display: flex;
+}
+
+.bar:hover{
+    color: white;
+    background: linear-gradient(#CC092F, #426DA9);
+}
+
+.title{
+    font-size: clamp(1em, 5px + 1vw, 1.5em);
+    margin-top: 2%;
+}
+
+.title2{
+    position: absolute;
+    font-size: clamp(1em, 5px + 2vw, 10em);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right, #F36279 0%, #CC092F 10%, #B41A83 70%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitle2{
+    width: 200%;
+    position: absolute;
+    font-size: clamp(0.5em, 5px + 1vw, 10em);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right, #F36279 0%, #CC092F 10%, #B41A83 70%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.arrow{
+    margin-top: 2.5%;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.container2{
+    margin-left: 5%;
+    margin-right: auto;
+    width: 50%;
+    height: 12%;
+    display: flex;
+}
+
+.container3{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+
+.minibox{
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    width: 22%;
+    height: 45%;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 3px 6px #00000033;
+    position: relative;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 30px;
+    margin: 0 16px;
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+    transition: 0.5s;
+}
+
+.minibox:hover{
+    cursor: pointer;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    color: white;
+    background: linear-gradient(#CC092F, #426DA9);
+}
+
+.one, .second, .third, .fourth, .fifth{
+    width: 15%;
+    height: 75%;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+    padding-bottom: 1rem;
+    background-color: white;
+    box-shadow: 0px 2px 48px #00000029;
+}
+
+.one:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover{
+    width: 15%;
+    height: 95%;
+    background: linear-gradient(#CC092F, #426DA9);
+}   
+
+.imgOne{
+    width: 100%;
+    height: 89%;
+    object-fit: cover;
+}
+
+.img{ 
+    width: 100%;
+    height: 89%;
+    border-radius: 1rem;
+}
+
+.imgBox{
+    width: 30%;
+}
+
+.imgBack{
+    margin-top: -10%;
+    width: 100%;
+    height: 60%;
+}
+
+.end{
+    position: end;
+    display: flex;
+    width: 50%;
+    height: 80%;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: clamp(0.5em, 5px + 1vw, 1.5em);
+}
+
+.subtitle3{
+    font-size: clamp(0.5em, 5px + 1vw, 1.5em);
+}
+
+.carousel{
+    min-width: 30%;
+    min-height: 30%;
+}

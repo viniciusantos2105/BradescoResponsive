@@ -1,0 +1,111 @@
+img{
+    min-width: 80px;
+    max-width: 150px;
+    min-height: 50px;
+    max-height: 100px;
+}
+
+mat-toolbar{ 
+   max-height: 10%;
+   min-height: 5%;
+   min-width: 100%;
+   max-width: 100%;
+}
+
+mat-menu{
+   background-color: #212121;
+   color: #212121;
+}
+
+mat-icon{
+    display: flex;
+    position: relative;
+    color: #CC092F;
+}
+
+.home{
+    color: #CC092F;
+    cursor: pointer;
+    font-size: clamp(0.5em, 5px + 1vw, 1em);
+    margin-right: 1rem;
+}
+
+.home:hover{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.login{
+    text-align: center;
+    transition: 1s;
+}
+
+.login:hover{
+    background-color: #CC092F;
+    color: black;
+}
+
+.register{
+    text-align: center;
+    transition: 1s;
+}
+
+.register:hover{
+    background-color: white;
+    color: black;
+}
+
+.button{
+    display: flex;
+    background-color: #212121;
+    border: transparent;
+}
+
+.log{
+    margin-left: clamp(0.5em, 5px + 1vw, 1em);
+}
+
+.nav{
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.beneficios{
+    color: #CC092F;
+    cursor: pointer;
+    font-size: clamp(0.5em, 5px + 1vw, 1em);
+    margin-right: 1rem;
+}
+
+.beneficios:hover{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.prime{
+    color: #CC092F;
+    cursor: pointer;
+    font-size: clamp(0.5em, 5px + 1vw, 1em);
+    margin-right: 1rem;
+}
+
+.prime:hover{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.bia{
+    color: #CC092F;
+    cursor: pointer;
+    font-size: clamp(0.5em, 5px + 1vw, 1em);
+}
+
+.bia:hover{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+}

@@ -1,0 +1,31 @@
+ngb-carousel{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+}   
+
+.carousel-caption{
+    text-align: left;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15%;
+    font-family: "Bradesco" !important;
+}
+
+.title-principal{
+    font-size: 2rem;
+    color: #434343;
+    font-weight: 700;
+    line-height: 2.8rem;
+    display: block;
+    font-family: "Bradesco" !important;
+}

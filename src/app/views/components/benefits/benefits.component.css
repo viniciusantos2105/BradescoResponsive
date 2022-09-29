@@ -1,3 +1,28 @@
+@media only screen and (max-width: 1000px){
+    .one, .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth{
+        max-width: 25%;
+        min-width: 25%;
+    }
+}
+
+@media only screen and (max-width: 890px){
+    .one, .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth{
+        max-width: 35%;
+        min-width: 35%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .one, .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth{
+        max-width: 75%;
+        min-width: 75%;
+    }
+    .boxTitle{
+      justify-content: center;
+        margin-left: 0;
+    }
+}
+
 .container{
     margin-top: 1rem;
     border-top: 1px solid #c80025;
@@ -21,9 +46,8 @@
     padding-right: 10px;
 }
 
-.one{
-    max-width: 240px;
-    min-width: 240px;
+.one, .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth{
+    width: 20%;
     margin-top: 1rem;
     margin-right: 1rem;
     box-shadow: 0 0 7px black;
@@ -36,28 +60,10 @@
     transform: scale(0.8);
 }
 
-.second{
-    max-width: 240px;
-    min-width: 240px;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    box-shadow: 0 0 7px black;
-    transition: all .5s;
-}
-
 .second:hover{
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
-}
-
-.third{
-    max-width: 240px;
-    min-width: 240px;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    box-shadow: 0 0 7px black;
-    transition: all .5s;
 }
 
 .third:hover{
@@ -66,28 +72,10 @@
     transform: scale(0.8);
 }
 
-.fourth{
-    max-width: 240px;
-    min-width: 240px;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    box-shadow: 0 0 7px black;
-    transition: all .5s;
-}
-
 .fourth:hover{
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
-}
-
-.fifth{
-    max-width: 240px;
-    min-width: 240px;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    box-shadow: 0 0 7px black;
-    transition: all .5s;
 }
 
 .fifth:hover{
@@ -96,43 +84,16 @@
     transform: scale(0.8);
 }
 
-.sixth{
-    max-width: 240px;
-    min-width: 240px;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    box-shadow: 0 0 7px black;
-    transition: all .5s;
-}
-
 .sixth:hover{
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
 }
 
-.seventh{
-    max-width: 240px;
-    min-width: 240px;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    box-shadow: 0 0 7px black;
-    transition: all .5s;
-}
-
 .seventh:hover{
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
-}
-
-.eighth{
-    max-width: 240px;
-    min-width: 240px;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    box-shadow: 0 0 7px black;
-    transition: all .5s;
 }
 
 .eighth:hover{

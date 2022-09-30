@@ -3,6 +3,12 @@
         max-width: 25%;
         min-width: 25%;
     }
+    .boxTitle{ 
+        margin-left: -4rem;
+        min-width: 80%;
+        max-width: 80%;  
+        font-size: 25px;  
+      }
 }
 
 @media only screen and (max-width: 890px){
@@ -10,6 +16,12 @@
         max-width: 35%;
         min-width: 35%;
     }
+    .boxTitle{ 
+        margin-left: -3rem;
+        min-width: 80%;
+        max-width: 80%;  
+        font-size: 25px;  
+      }
 }
 
 @media only screen and (max-width: 500px){
@@ -17,9 +29,15 @@
         max-width: 75%;
         min-width: 75%;
     }
-    .boxTitle{
-      justify-content: center;
-        margin-left: 0;
+    .boxTitle{ 
+      margin-left: -3rem;
+      min-width: 90%;
+      max-width: 90%;  
+      font-size: 25px;  
+    }
+    .title{
+        margin-left: -7rem;
+        display: flex;
     }
 }
 
@@ -39,11 +57,14 @@
 .boxTitle{
     flex-wrap: wrap;
     display: inline-flex;
-    margin-left: 7rem;
     position: relative;
     min-height: 1px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.primeBox{
+    margin-left: 7rem;
 }
 
 .one, .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth{
@@ -103,8 +124,7 @@
 }
 
 .title{
-    margin-left: 50%;
-    font-size: 24px;
+    font-size: clamp(0.5em, 5px + 1vw, 10em);
     margin: 22px 0 12px;
     color: #000;
     max-width: 360px;

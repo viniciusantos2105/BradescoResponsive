@@ -1,3 +1,18 @@
+@media only screen and (max-width: 1000px){
+    .title-principal{
+        margin-bottom: -40%;
+        max-width: 60%;
+    }
+    .text{
+        margin-bottom: -40%;
+        max-width: 70%;
+        min-width: 70%;
+    }
+    .subtitle-white{
+        margin-top: -10%;
+    }
+}
+
 ngb-carousel{
     max-width: 100%;
     min-width: 100%;
@@ -9,23 +24,36 @@ img{
 
 .logo{
     width: 20%;
+    margin-bottom: 8%;
     display: flex;
 }   
 
 .carousel-caption{
     text-align: left;
     color: black;
-    display: flex;
-    flex-wrap: wrap;
     margin-bottom: 15%;
     font-family: "Bradesco" !important;
 }
 
 .title-principal{
-    font-size: 2rem;
+    font-size: clamp(0.5em, 5px + 1vw, 10em);
     color: #434343;
     font-weight: 700;
     line-height: 2.8rem;
     display: block;
     font-family: "Bradesco" !important;
+}
+
+.title-principal-white{
+    font-size: clamp(0.5em, 5px + 1vw, 10em);
+    color: #fff;
+    font-weight: 700;
+    line-height: 2.8rem;
+    display: block;
+    font-family: "Bradesco" !important;
+}
+
+.subtitle-white{
+    font-size: clamp(0.2em, 5px + 1vw, 10em);
+    color: #fff;
 }

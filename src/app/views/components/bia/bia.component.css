@@ -11,6 +11,35 @@
     .subtitle-white{
         margin-top: -10%;
     }
+    .container{
+        background: #FFFF;
+        box-shadow: 0px 2px 48px #00000029;
+        margin-top: -70%;
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        display: flex;
+    }
+    .title{
+        min-width: 70%;
+        max-width: 70%;
+    }
+    .container2{
+        min-width: 70%;
+        max-width: 70%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        display: flex;
+    }
+    .one, .second, .third, .fourth, .fifth, .sixth, .seventh{
+        max-width: 50px;
+        min-width: 50px;
+        max-height: 70px;
+        min-height: 70px;
+    }
 }
 
 ngb-carousel{
@@ -20,6 +49,69 @@ ngb-carousel{
 
 img{
     width: 100%;
+}
+
+.container{
+    background: #FFFF;
+    box-shadow: 0px 2px 48px #00000029;
+    width: 70%;
+    height: 30%;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    display: flex;
+    position: absolute;
+}
+
+.one, .second, .third, .fourth, .fifth, .sixth, .seventh{
+    width: 145px;
+    height: 215px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding-bottom: 1rem;
+    background-color: white;
+    box-shadow: 0 0 1em rgb(197, 197, 197);
+}
+
+.img{
+    height: 50%;
+}
+
+.subtitle{
+    width: 70%;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1.3rem;
+    color: #47484C;
+}
+
+.breakLine{
+    border-top: 1px solid #CC092F;
+    width: 70%;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo{
@@ -42,6 +134,7 @@ img{
     line-height: 2.8rem;
     display: block;
     font-family: "Bradesco" !important;
+    line-height: normal;
 }
 
 .title-principal-white{
@@ -56,4 +149,27 @@ img{
 .subtitle-white{
     font-size: clamp(0.2em, 5px + 1vw, 10em);
     color: #fff;
+}
+
+.title{
+    width: 50%;
+    font-size: clamp(0.5em, 5px + 1vw, 10em);
+    color: #434343;
+    font-weight: 700;
+    line-height: 2.8rem;
+    display: block;
+    font-family: "Bradesco" !important; 
+    text-align: center;
+    justify-content: center;
+    line-height: normal;
+}
+
+.container3{
+    margin-top: 60%;
+    position: absolute;
+    height: 40%;
+}
+
+.subtitle{
+    font-size: clamp(0.5em, 5px + 1vw, 10em);
 }

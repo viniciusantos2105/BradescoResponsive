@@ -1,3 +1,66 @@
+@media only screen and (max-width: 1366px){
+    .title-principal{
+        margin-bottom: -40%;
+        max-width: 60%;
+    }
+    .text{
+        margin-bottom: -40%;
+        max-width: 70%;
+        min-width: 70%;
+    }
+    .subtitle-white{
+        margin-top: -10%;
+    }
+    .container{
+        background: #FFFF;
+        box-shadow: 0px 2px 48px #00000029;
+        margin-top: -1rem;
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 20%;
+        min-height: 20%;
+        position: absolute;
+        display: flex;
+    }
+    .title{
+        min-width: 70%;
+        max-width: 70%;
+    }
+    .container2{
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .one, .second, .third, .fourth, .fifth, .sixth, .seventh{
+        margin-top: -2rem;
+        text-align: center;
+        justify-content: space-evenly;
+        max-width: 12%;
+        min-width: 12%;
+    }
+    .subtitle{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .subtitle2{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .breakLine{
+        margin-top: 5px;
+    }
+}
+
 @media only screen and (max-width: 1000px){
     .title-principal{
         margin-bottom: -40%;
@@ -14,7 +77,332 @@
     .container{
         background: #FFFF;
         box-shadow: 0px 2px 48px #00000029;
+        margin-top: -98%;
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        display: flex;
+    }
+    .title{
+        min-width: 70%;
+        max-width: 70%;
+    }
+    .container2{
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .one, .second, .third, .fourth, .fifth, .sixth, .seventh{
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+        max-width: 30%;
+        min-width: 30%;
+        max-height: 70px;
+        min-height: 70px;
+    }
+    .subtitle{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .subtitle2{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .breakLine{
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 412px){
+    .title-principal{
+        margin-bottom: -40%;
+        max-width: 60%;
+    }
+    .text{
+        margin-bottom: -40%;
+        max-width: 70%;
+        min-width: 70%;
+    }
+    .subtitle-white{
+        margin-top: -10%;
+    }
+    .container{
+        background: #FFFF;
+        box-shadow: 0px 2px 48px #00000029;
+        margin-top: -100%;
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        display: flex;
+    }
+    .title{
+        min-width: 70%;
+        max-width: 70%;
+    }
+    .container2{
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .one, .second, .third, .fourth, .fifth, .sixth, .seventh{
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+        max-width: 30%;
+        min-width: 30%;
+        max-height: 70px;
+        min-height: 70px;
+    }
+    .subtitle{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .subtitle2{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .breakLine{
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 393px){
+    .title-principal{
+        margin-bottom: -40%;
+        max-width: 60%;
+    }
+    .text{
+        margin-bottom: -40%;
+        max-width: 70%;
+        min-width: 70%;
+    }
+    .subtitle-white{
+        margin-top: -10%;
+    }
+    .container{
+        background: #FFFF;
+        box-shadow: 0px 2px 48px #00000029;
+        margin-top: -97%;
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        display: flex;
+    }
+    .title{
+        min-width: 70%;
+        max-width: 70%;
+    }
+    .container2{
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .one, .second, .third, .fourth, .fifth, .sixth, .seventh{
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+        max-width: 30%;
+        min-width: 30%;
+        max-height: 70px;
+        min-height: 70px;
+    }
+    .subtitle{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .subtitle2{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .breakLine{
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .title-principal{
+        margin-bottom: -40%;
+        max-width: 60%;
+    }
+    .text{
+        margin-bottom: -40%;
+        max-width: 70%;
+        min-width: 70%;
+    }
+    .subtitle-white{
+        margin-top: -10%;
+    }
+    .container{
+        background: #FFFF;
+        box-shadow: 0px 2px 48px #00000029;
+        margin-top: -98%;
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        display: flex;
+    }
+    .title{
+        min-width: 70%;
+        max-width: 70%;
+    }
+    .container2{
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .one, .second, .third, .fourth, .fifth, .sixth, .seventh{
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+        max-width: 30%;
+        min-width: 30%;
+        max-height: 70px;
+        min-height: 70px;
+    }
+    .subtitle{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .subtitle2{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .breakLine{
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .title-principal{
+        margin-bottom: -40%;
+        max-width: 60%;
+    }
+    .text{
+        margin-bottom: -40%;
+        max-width: 70%;
+        min-width: 70%;
+    }
+    .subtitle-white{
+        margin-top: -10%;
+    }
+    .container{
+        background: #FFFF;
+        box-shadow: 0px 2px 48px #00000029;
         margin-top: -70%;
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        display: flex;
+    }
+    .title{
+        min-width: 70%;
+        max-width: 70%;
+    }
+    .container2{
+        min-width: 80%;
+        max-width: 80%;
+        max-height: 10%;
+        min-height: 10%;
+        position: absolute;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .one, .second, .third, .fourth, .fifth, .sixth, .seventh{
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+        max-width: 30%;
+        min-width: 30%;
+        max-height: 70px;
+        min-height: 70px;
+    }
+    .subtitle{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .subtitle2{
+        margin-top: -10px;
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 90%;
+        max-height: 90%;
+    }
+    .breakLine{
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .title-principal{
+        margin-bottom: -40%;
+        max-width: 60%;
+    }
+    .text{
+        margin-bottom: -40%;
+        max-width: 70%;
+        min-width: 70%;
+    }
+    .subtitle-white{
+        margin-top: -10%;
+    }
+    .container{
+        background: #FFFF;
+        box-shadow: 0px 2px 48px #00000029;
+        margin-top: -88%;
         min-width: 80%;
         max-width: 80%;
         max-height: 10%;
@@ -110,6 +498,14 @@ img{
     box-shadow: 0 0 1em rgb(197, 197, 197);
 }
 
+.one:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover, .sixth:hover, .seventh:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    color: white;
+    background: linear-gradient(#CC092F, #426DA9);
+} 
+
 .img{
     height: 50%;
 }
@@ -192,4 +588,12 @@ img{
 
 .subtitle{
     font-size: clamp(0.5em, 5px + 0.5vw, 10em);
+}
+
+p{
+    margin-top: 15%;
+}
+
+br{
+    margin-top: 15%;
 }

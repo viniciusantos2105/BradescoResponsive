@@ -13,7 +13,6 @@ import { FooterComponent } from './views/components/templates/footer/footer.comp
 import { BodyComponent } from './views/components/body/body.component';
 import { BenefitsComponent } from './views/components/benefits/benefits.component';
 import { NavComponent } from './views/components/templates/nav/nav.component';
-import { PrimeComponent } from './views/components/prime/prime.component';
 import { BiaComponent } from './views/components/bia/bia.component';
 
 @NgModule({
@@ -24,7 +23,6 @@ import { BiaComponent } from './views/components/bia/bia.component';
     BodyComponent,
     BenefitsComponent,
     NavComponent,
-    PrimeComponent,
     BiaComponent,
   ],
   imports: [
